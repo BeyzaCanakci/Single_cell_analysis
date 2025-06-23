@@ -1,6 +1,6 @@
 # Single_cell_analysis
 
-##scRNA-seq Data Analysis with Scanpy in Colab
+##scRNA-seq Data Analysis with Scanpy
 
 This project contains Python code written to analyze single-cell RNA sequencing (scRNA-seq) data using the Scanpy library. The analysis pipeline covers data reading, preprocessing, dimensionality reduction (PCA, UMAP), clustering (Leiden), and differential gene expression analysis. Additionally, it includes pseudotime analysis to study cell developmental trajectories and pathway enrichment analysis.
 
@@ -19,7 +19,7 @@ The following libraries are required to run the project:
 You can install these libraries using pip:
 ## Usage
 
-The code is designed to be run in a Jupyter Notebook or Google Colab environment. You can execute the code cells sequentially to perform all analysis steps.
+The code is designed to be run in a Jupyter Notebook or Google Colab environment. You can execute the code cells sequentially to perform all analysis steps. Also, the Python file version is attached, you can download it as well.
 
 1.  **Data Loading:** The project uses Scanpy's built-in `pbmc3k` dataset. If you wish to use your own data, you need to modify the data reading section accordingly.
 2.  **Preprocessing:** Steps for calculating quality control metrics, filtering (removing low-quality cells and genes), normalization, and log transformation are applied.
